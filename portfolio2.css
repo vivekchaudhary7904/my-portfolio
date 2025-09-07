@@ -17,6 +17,12 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,Arial;background:radi
 
 /* HERO */
 .hero{position:relative;border-radius:18px;overflow:hidden;min-height:420px;display:flex;align-items:center;justify-content:center;margin-bottom:48px}
+ height: 100vh; /* Full screen height */
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 80px;
+      background-image:url(bg.png);
 .hero .bg{position:absolute;inset:0;background:url("C:\Users\punit chaudhary\Downloads\classroom\after.png") center/cover no-repeat;filter:grayscale(1) contrast(.9) brightness(.35);transform:scale(1.02) translateZ(0)}
 .hero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg, rgba(10,10,12,0.0), rgba(8,7,12,0.65))}
 .hero .content{position:relative;z-index:2;text-align:center;padding:30px}
@@ -77,3 +83,4 @@ footer{text-align:center;color:var(--muted);padding:24px 0}
   .thumb{width:86px;height:56px}
   .profile img{width:200px;height:200px}
 }
+
