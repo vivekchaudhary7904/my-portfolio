@@ -92,6 +92,54 @@ footer{text-align:center;color:var(--muted);padding:24px 0}
   .thumb{width:86px;height:56px}
   .profile img{width:200px;height:200px}
 }
+/* 11111111111111111111111111111111111 */
+/* Existing responsive tweaks are good, adding more for small screens */
+@media(max-width:980px){
+  .projects{grid-template-columns:repeat(2,1fr)}
+  .about{grid-template-columns:1fr;grid-auto-rows:auto}
+  .hero{padding:0 40px;text-align:center;justify-content:center}
+  .hero h1{font-size:72px}
+}
+
+@media(max-width:640px){
+  .hero{padding:0 20px}
+  .hero h1{font-size:48px;line-height:1.1}
+  .hero .tag{font-size:16px}
+  .projects{grid-template-columns:1fr}
+  .skills-grid{grid-template-columns:1fr}
+  .thumb{width:86px;height:56px}
+  .profile img{width:180px;height:180px}
+  .info-cards{grid-template-columns:1fr}
+}
+
+@media(max-width:480px){
+  .container{padding:20px}
+  .hero{flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center}
+  .hero h1{font-size:36px;letter-spacing:1px}
+  .hero .tag{font-size:14px}
+  .thumb-row{gap:10px}
+  .thumb{width:72px;height:48px}
+  
+  .about{gap:20px}
+  .info h2{font-size:22px}
+  .info p{font-size:14px}
+  .meta{font-size:12px}
+
+  .projects{gap:16px}
+  .project{padding:14px}
+  .section-title{font-size:20px;margin:24px 0}
+
+  .process{flex-direction:column;gap:14px}
+  .step h4{font-size:13px}
+
+  .skills-grid{gap:12px}
+  .skill{padding:10px}
+  .skill .label{font-size:14px}
+  .bar{height:10px}
+  
+  footer{font-size:12px;padding:16px 0}
+}
+
 
 
 
