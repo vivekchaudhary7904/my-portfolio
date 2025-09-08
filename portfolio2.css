@@ -61,20 +61,12 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,Arial;background:radi
 .process{background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent);padding:22px;border-radius:14px;display:flex;gap:18px;align-items:center;justify-content:space-between;margin-bottom:56px}
 .step{flex:1;text-align:center;padding:8px}
 .step:hover {
-  background: linear-gradient(270deg, #ff6a00, #ee0979);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(1.2);
-  transform: translateY(-10px);
-  color: #00bcd4;
-  filter: drop-shadow(0 5px 10px rgba(0,188,212,0.6));
-  color: #fff;
-  transform: scale(1.3);
-      color: #ff4d6d;
-      text-shadow: 0 0 15px #ff4d6d;
+      color: #0ff;
+      transform: scale(1.2);
+      text-shadow: 0 0 10px #0ff,
+                   0 0 20px #0ff,
+                   0 0 40px #0ff;
 }
-
-
 .step .dot{width:54px;height:54px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:var(--glass);border:1px solid rgba(255,255,255,0.04);box-shadow:0 6px 20px rgba(0,0,0,0.6)}
 .step h4{margin:10px 0 0 0;font-size:14px;color:var(--muted)}
 
@@ -100,6 +92,7 @@ footer{text-align:center;color:var(--muted);padding:24px 0}
   .thumb{width:86px;height:56px}
   .profile img{width:200px;height:200px}
 }
+
 
 
 
